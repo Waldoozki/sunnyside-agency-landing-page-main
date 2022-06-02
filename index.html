@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container">
+      <img src="images/logo.svg" alt="logo" class="nav__logo">
+      <label for="menu" class="nav__label">
+        <img src="images/icon-hamburger.svg" alt="hamburger" class="nav__hamburguer">
+      </label>
+      <input type="checkbox" id="menu" class="nav__input">
+      <div class="nav__menu">
+        <a href="#" class="nav__item">About</a>
+        <a href="#" class="nav__item">Services</a>
+        <a href="#" class="nav__item">Projects</a>
+        <a href="#" class="nav__item nav__item--cta">Contact</a>
+      </div>
+    </nav>
+    <section class="hero__main container">
+      <h1 class="hero__title">We are creatives</h1>
+      <a href="#seccion-1"><!-- ANCLA -->
+        <img src="images/icon-arrow-down.svg" alt="arrow-down" class="hero__arrow">
+      </a>
+    </section>
+  </header>
+  <main>
+    <section class="services">
+      <div class="services__image services__image--1" id="seccion-1"></div>
+      <div class="services__texts">
+        <h2 class="services__title">Transform your brand</h2>
+        <p class="services__paragraph">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <a href="#" class="services__cta">Learn more</a>
+      </div>
+      <div class="services__image services__image--2"></div>
+      <div class="services__texts services__texts--2">
+        <h2 class="services__title">Stand out to the right audience</h2>
+        <p class="services__paragraph">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+        </p>
+        <a href="#" class="services__cta services__cta--2">Learn more</a>
+      </div>
+    </section>
+    <section class="fruits">
+      <div class="fruit__section">
+        <div class="contenido">
+          <h2 class="fruit__name">Graphic Design</h2>
+          <p class="fruit__paragraph">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </div>
+      </div>
+      <div class="fruit__section fruit__section--2">
+        <div class="contenido">
+          <h2 class="fruit__name fruit__name--2">Photography</h2>
+          <p class="fruit__paragraph fruit__paragraph--2">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials container">
+      <h2 class="testimonials__title">Client testimonials</h2>
+      <div class="testimonials__container">
+        <article class="testimonials__item--1">
+          <img src="images/image-emily.jpg" alt="Emily" class="testimonials__img">
+          <p class="testimonials__paragraph">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <h3 class="testimonials__name">Emily R.</h3>
+          <p class="testimonials__job">Marketing Director</p>
+        </article>
+        <article class="testimonials__item--2">
+          <img src="images/image-thomas.jpg" alt="Thomas" class="testimonials__img">
+          <p class="testimonials__paragraph">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <h3 class="testimonials__name">Thomas S.</h3>
+          <p class="testimonials__job">Chief Operating Officer</p>
+        </article>
+        <article class="testimonials__item--3">
+          <img src="images/image-jennie.jpg" alt="Jennie" class="testimonials__img">
+          <p class="testimonials__paragraph">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <h3 class="testimonials__name">Jennie F.</h3>
+          <p class="testimonials__job testimonials__job--3">Business Owner</p>
+        </article>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="gallery__image"></div>
+      <div class="gallery__image"></div>
+      <div class="gallery__image"></div>
+      <div class="gallery__image"></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container container">
+      <img src="images/logo-cyan.svg" alt="logo-cyan" class="footer__logo">
+      <nav class="footer__nav">
+        <a href="#" class="footer__link">About</a>
+        <a href="#" class="footer__link">Services</a>
+        <a href="#" class="footer__link">Projects</a>
+      </nav>
+      <nav class="footer__social">
+        <a href="https://www.facebook.com/axel.oswaldo.758/" target="_blank" class="footer__media">
+          <img src="images/icon-facebook.svg" alt="icon-facebook" class="footer__icon">
+        </a>
+        <a href="https://www.instagram.com/waldoozki/" target="_blank" class="footer__media">
+          <img src="images/icon-instagram.svg" alt="icon-instagram" class="footer__icon">
+        </a>
+        <a href="https://twitter.com/Waldoozvi" target="_blank" class="footer__media">
+          <img src="images/icon-twitter.svg" alt="icon-twitter" class="footer__icon">
+        </a>
+        <a href="https://www.pinterest.com/axelozv04/_saved/" target="_blank" class="footer__media">
+          <img src="images/icon-pinterest.svg" alt="icon-pinterest" class="footer__icon">
+        </a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
